@@ -4,6 +4,7 @@ var open = require('open');
 import webpack from 'webpack';
 import config from '../webpack';
 
+//port declaration
 var port = 3000;
 var app = express();
 const compiler=webpack(config);
